@@ -8,7 +8,7 @@ def add_numbers(a: int, b: int) -> int:
     return a + b
 
 @mcp.tool()
-def repeat_text(text: str, times: int = 3) -> str:
+def repeat_text(text: str, times: int = 3) -> str: #multiple inputs with a default limit (optional)
     """Repeat a given text a specified number of times."""
     return " ".join([text] * times)
 if __name__ == '__main__':
